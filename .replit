@@ -1,0 +1,4 @@
+language = "cpp"
+#run = "cd build && cmake ../ && cmake --build . && ./2048"
+
+run = "clang++ -pthread -o main main.cpp && ./main"
